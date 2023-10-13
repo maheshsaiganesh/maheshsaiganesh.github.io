@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/*
+ Author: Maheshwar Sai Ganesh
+  Date: 08/03/2023
+   
+   Filename: mWeb_layout.css
+*/
+
+
+/* Import Basic Design Styles Used on All Screens */
+
+@import url("mWeb_styles.css");
+
+
+
+/* ============================================
+	Mobile Devices: 0 - 480 pixels
+   ============================================
+*/
+
+@media screen and (max-width: 480px) {
+.OPMF img,
+.TAB img,
+.YGIC img{
+    width:device;
+}
+ nav.horizontal {
+    order: 99;
+  }
+ body>footer {
+    order:100;
+  }
+
+}
+
+
+/* ===================================================
+	Tablet and Desktop Devices: 480 - 889 pixels
+   ===================================================
+*/
+
+@media screen (min-width:481px) and (max-width: 889px){
+
+nav.horizontal ul {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 40px;
+    }
+ nav.horizontal ul li {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    }
+}
+
+/* ===================================================
+	Tablet and Desktop Devices: Greater than 890 pixels
+   ===================================================
+*/
+
+@media (min-width:890px) {
+
+    body {
+        max-width:1500px;
+        width: 90%;
+        margin-top: 2%;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-left: auto;
+     }
+}

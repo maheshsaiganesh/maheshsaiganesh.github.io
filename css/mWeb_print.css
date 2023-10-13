@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*
+Author: Maheshwar Sai Ganesh
+Date: 06/14/2023
+Filename: mWeb_print.css
+*/
+
+
+nav,
+footer{
+    display: none;
+    border: none;
+}
+
+@page{
+    size: 8.5in 11in portrait;
+    margin-top:0.3in;
+    margin-bottom:0.1in;
+    margin-right: 0.2in;
+    margin-left:0.2in;
+    
+}
+
+body{
+    box-shadow: none;
+}
+
+body>header img {
+display:flex;
+scale:120%;
+border-top:none;
+margin-left:1in;
+margin-right:1in;
+margin-top:-0.2in;
+ }
+
+
+
+
+

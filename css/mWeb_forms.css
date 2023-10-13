@@ -1,0 +1,121 @@
+@charset "utf-8";
+/*
+Author: Maheshwar Sai Ganesh
+Date: 06/14/2023
+Filename: mWeb_forms.css
+*/
+
+/*Query Form styles*/
+label {
+    display: block;
+    clear:right;
+    margin: auto auto;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+ }
+ 
+ p {
+    font-size: 1.3em;
+ }
+ 
+ input,
+ select:first-of-type,
+ textarea {
+    display: block;
+    margin: auto auto;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    background-color: rgb(214, 232, 245);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(63, 104, 134);
+ }
+
+ textarea {
+    height: 100px;
+    font-size: 1.3em;
+ }
+ 
+ form p {
+    clear: left;
+    text-align: center;
+    padding-top: 40px;
+ }
+ 
+ table {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10px;
+ 
+ }
+ 
+ /*radio/checkbox labels*/
+ table tbody tr td label {
+    margin-top: -10px;
+    margin-bottom: 5px;
+    margin-left: -5%;
+    padding-left:5%
+
+ }
+ 
+/*Input Button stylings*/
+ input[type='submit'],
+ input[type='reset'] {
+    background-color: rgb(186, 217, 240);
+    font-weight: bold;
+    color: rgb(63, 104, 134);
+    border-radius: 20px;
+    float: none;
+    display: inline;
+    font-size: 1.4em;
+    height: 30px;
+    width: 150px;
+ }
+
+ input[type='radio'],
+ input[type='checkbox']{
+   margin-left:78%;
+ }
+
+ input[type='radio']:after,
+ input[type='checkbox']:after {
+    width: 10px;
+    height: 10px;
+    margin-top: -1px;
+    margin-bottom: 5px;
+    margin-left: 93px;
+    background-color: rgb(186, 217, 240);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+ }
+ 
+ input[type='radio']:after {
+    border-radius: 10px;
+ }
+ 
+ input[type='radio']:checked:after,
+ input[type='checkbox']:checked:after {
+    width: 10px;
+    height: 10px;
+    margin-top: -1px;
+    margin-bottom: 5px;
+    margin-left: 93px;
+    background-color: rgb(63, 104, 134);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+ }
+ 
+ input[type='radio']:checked:after {
+    border-radius: 10px;
+ }
+ 

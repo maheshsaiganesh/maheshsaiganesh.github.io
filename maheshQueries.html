@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+      Author: Maheshwar Sai Ganesh
+      Date: 07/17/2023
+      Filename:   maheshQueries.html
+
+   -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Maheshwar Sai Ganesh</title>
+    <link href="css/mWeb_reset.css" rel="reset" />
+    <link href="css/mWeb_styles.css" rel="stylesheet" />
+    <link href="css/mWeb_validate.css" rel="stylesheet" />
+    <link href="css/mWeb_forms.css" rel="stylesheet" />
+    <link href="css/mWeb_layout.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+    <header>
+        <img>
+        <img src="images/msgLogo2.png" alt="Mahesh's Logo" />
+        </img>
+        <nav class="tabs">
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="maheshSchool.html">Schooling</a></li>
+                <li><a href="maheshVolunteering.html">Volunteering</a></li>
+                <li><a href="maheshHobbies.html">Hobbies</a></li>
+                <li><a href="maheshQueries.html">Queries</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <section>
+
+    <h1>Queries</h1>
+    <h2>Required fields are marked with *</br>
+    These survey questions are all optional, but I would love to have your opinion!</h2>
+
+    <form action="http://www.example.com/msg/survey" method="post">
+
+        <label for="titleBox">Title</label>
+        <input name="Title" id="titleBox" type="text" list="titleList" />
+        <datalist id="titleList">
+            <option value="Mr.">
+            <option value="Mrs.">
+            <option value="Ms.">
+            <option value="Prof.">
+            <option value="Dr.">
+        </datalist>
+        <label for="fNBox">First Name*</label>
+        <input name="First Name" id="fnBox" type="text" required />
+        <label for="lnBox">Last Name*</label>
+        <input name="Last Name" id="lnBox" type="text" required />
+        <label for="mailBox">E-mail*</label>
+        <input name="E-mail" id="mailBox" type="email" required />
+        <label for="regList">Query Type:</label>
+        <select name="registerType" id="regList">
+            <option value="question">Question</option>
+            <option value="suggestion">Suggestion</option>
+            <option value="request">Request</option>
+            <option value="misc">Other/Miscellaneous</option>
+        </select>
+        <label for="queryBox">Please enter your query*</label>
+        <textarea name="Query" id="queryBox" required></textarea>
+        <label for="phoneBox">Phone Number</label>
+        <input name="Phone number" id="phoneBox" type="tel" placeholder="(nnn) nnn-nnnn"
+            pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+
+        <p>Please select your age range:</p>
+        <table id="ages">
+            <tbody>
+                <tr>
+                    <td><input type="radio" id="age1" name="age" value="18"></td>
+                    <td><label for="age1">0 - 18 years</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="age2" name="age" value="30"></td>
+                    <td><label for="age2">19 - 30 years</label></td>
+                <tr>
+                    <td><input type="radio" id="age3" name="age" value="60"></td>
+                    <td><label for="age3">31 - 60 years</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="age4" name="age" value="61"></td>
+                    <td><label for="age4">61+ years</label></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Was I the reason you learnt of this website?</p>
+        <br>
+        <table id="foundBy">
+            <tbody>
+                <tr>
+                    <td><input type="radio" id="Me" name="foundBy" value="Yes"></td>
+                    <td><label for="Me">Yes</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="notMe" name="foundBy" value="No"></td>
+                    <td><label for="notMe">No</label></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>What were your overall feelings using website?</p>
+        <br>
+        <table id="satisfaction">
+            <tbody>
+                <tr>
+                    <td><input type="radio" id="notSatisfied" name="satisfaction" value="Not"></td>
+                    <td><label for="notSatisfied">Not Satisfied</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="satisfied" name="satisfaction" value="moderately"></td>
+                    <td><label for="satisfied">Satisfied</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="vSatisfied" name="satisfaction" value="very"></td>
+                    <td><label for="vSatisfied">Very Satisfied</label></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Which of the following did you like best?(can select multiple)</p>
+        <br>
+        <table id="elementsDoneWell">
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" id="organized" name="elementsDoneWell" value="organization"></td>
+                    <td><label for="organized">Organization</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="design" name="elementsDoneWell" value="visDesign"></td>
+                    <td><label for="design">Visual Design</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="content" name="elementsDoneWell" value="content"></td>
+                    <td><label for="content">Content</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="accessibility" name="elementsDoneWell" value="accessibility"></td>
+                    <td><label for="accessibility">Accessibility</label></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Which of the following could be improved?(can select multiple)</p>
+        <br>
+        <table id="elementsToBeImproved">
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" id="organized" name="elementsDoneWell" value="organization"></td>
+                    <td><label for="organized">Organization</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="design" name="elementsDoneWell" value="visDesign"></td>
+                    <td><label for="design">Visual Design</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="content" name="elementsDoneWell" value="content"></td>
+                    <td><label for="content">Content</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="accessibility" name="elementsDoneWell" value="accessibility"></td>
+                    <td><label for="accessibility">Accessibility</label></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Which tab(s) were your favorite?(can select multiple)</p>
+        <br>
+        <table id="favTabs">
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" id="about" name="favTabs" value="about"></td>
+                    <td><label for="about">About</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="schooling" name="favTabs" value="school"></td>
+                    <td><label for="schooling">Schooling</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="volunteering" name="favTabs" value="volunteer"></td>
+                    <td><label for="volunteering">Volunteering</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="hobbies" name="favTabs" value="hobbies"></td>
+                    <td><label for="hobbies">Hobbies</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="queries" name="favTabs" value="queries"></td>
+                    <td><label for="queries">Queries</label></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>
+            <input value="Submit" type="submit" />
+            <input value="Reset" type="reset" />
+        </p>
+
+    </form>
+    </section>
+
+    <footer>
+        Maheshwar Sai Ganesh 2023 English (US) <span> <a href="maheshWebsite.html">Home</a> <a
+                href="maheshSchool.html">Schooling</a> <a href="maheshVolunteering.html">Volunteering</a> <a
+                href="maheshHobbies.html">Hobbies </a> <a href="maheshQueries.html">Queries</a> </span>
+
+    </footer>

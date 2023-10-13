@@ -1,0 +1,196 @@
+@charset "utf-8";
+/*
+Author: Maheshwar Sai Ganesh
+Date: 06/14/2023
+Filename: mWeb_styles.css
+*/
+
+
+html {
+   background-color: rgb(63, 104, 134);
+   font-size: 12px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+   box-shadow: 20px 0 70px rgb(47, 235, 235),
+      -20px 0 70px rgb(47, 235, 235);
+   background-color: rgb(155, 209, 235);
+   border-radius: 20px;
+   color: rgb(14, 53, 82);
+}
+
+
+/* Body/Body Header Navigation Styles */
+nav a {
+   text-decoration: none;
+}
+
+body>header {
+   background-color: rgb(186, 217, 240);
+   height: 105px;
+   margin-bottom: 30px;
+   position: relative;
+   padding-top: 10px;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+}
+
+body>header nav.tabs {
+   position: relative;
+   bottom: 0px;
+   height: 130px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 105%;
+}
+
+body>header>nav.tabs>ul {
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+}
+
+body>header nav.tabs li {
+   background-color: rgb(186, 217, 240);
+   display: block;
+   float: left;
+   height: 40px;
+   letter-spacing: 3px;
+   line-height: 40px;
+   margin-left: 4%;
+   margin-right: 2%;
+   width: 12%;
+   border-radius: 10px;
+}
+
+body>header nav.tabs li a {
+   color: rgb(63, 104, 134);
+   display: block;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 14px;
+   font-weight: bolder;
+   width: 97%;
+   height: 95%;
+   border-style: solid;
+   border-radius: 10px;
+   border-width: 2px;
+   border-color: rgb(63, 104, 134);
+}
+
+body>header nav.tabs li:hover {
+   background-color: rgb(107, 173, 224);
+}
+
+section h1,
+section h2,
+section p,
+section ol h2,
+section ul h2 {
+   display: block;
+   padding-left: 2%;
+   color: rgb(14, 53, 82);
+}
+
+section h1 {
+   font-size: 3em;
+}
+
+section ol h2,
+section ul h2 {
+   font-size: 2.5em;
+}
+
+section ul h1 {
+   padding-left: 0%;
+}
+
+/* Change logo size */
+
+body>header img {
+   float: left;
+   height: 60%;
+   margin-top: 8px;
+   margin-bottom: 10px;
+   margin-left: 15px;
+   margin-right: auto;
+}
+
+/*Aside*/
+aside {
+   color: rgb(63, 104, 134);
+   background-color: rgb(186, 217, 240);
+   display: block;
+   text-align: center;
+   line-height: 1.3em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 14px;
+   font-weight: bolder;
+   width: 32%;
+   height: 95%;
+   border-style: solid;
+   border-radius: 15px;
+   border-width: 2px;
+   border-color: rgb(63, 104, 134);
+   margin-left:auto;
+   margin-right:auto;
+}
+
+/*Footer*/
+footer {
+   background-color: rgb(186, 217, 240);
+   clear: left;
+   margin-top: 25px;
+   text-align: right;
+   border: solid 2px rgb(186, 217, 240);
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+
+footer,
+footer span a {
+   text-decoration: none;
+   padding: 10px;
+   color: rgb(63, 104, 134);
+}
+
+footer span a:hover {
+   color: rgb(55, 158, 236);
+   text-decoration: underline;
+}
+
+/*Table Styles*/
+table {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   width: 97%;
+}
+
+table tbody tr td p {
+   font-size: 210%;
+   line-height: 1.2em;
+   margin-right: 5%;
+   margin-left: 5%;
+   height: 100%;
+   line-height: 1.2em;
+}
+
+table figcaption {
+   font-size: 1.4em;
+}
+
+table img,
+table figcaption {
+   margin-left: -50px;
+}
+
+article table tbody tr td figure {
+   margin-left: 80px;
+}
+
+article table tbody tr td iframe {
+   margin-left: 30px;
+}

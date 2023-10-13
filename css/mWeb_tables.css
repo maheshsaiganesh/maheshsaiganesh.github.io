@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url(mWeb_styles.css);
+/*
+   Author: Maheshwar Sai Ganesh
+   Date: 07/17/2023 
+
+   Filename: mWeb_tables.css
+
+*/
+
+/* Table Styles */
+
+table {
+    font-family: "Brush Script MT", "Lucida Handwriting", serif;
+    font-weight: bold;
+    background: linear-gradient(180deg, white, rgb(190, 215, 255));
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 6px solid rgb(14, 53, 82);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th:not(:last-child),
+table td:not(:last-child) {
+    border-right: 2px solid rgb(14, 53, 82);
+}
+
+table th,
+table td {
+    border: 2px solid rgb(14, 53, 82);
+    line-height: 1.4em;
+    font-size: 1.2em;
+    padding: 10px;
+    height: 40px;
+}
+
+th {
+    background-color: rgb(103, 179, 230);
+    color: rgb(255, 255, 255);
+    font-family: "Brush Script MT", "Lucida Handwriting", serif;
+    font-weight: bold;
+}
+
+th:first-child {
+    font-size: 1.8em;
+}
+
+/* Column Styles */
+
+col#firstCol {
+    width: 24%;
+
+}
+
+col {
+    column-width: 19%;
+
+}
+
+/* Table Header Styles */
+
+thead tr th {
+    height: 37px;
+    font-size: 1.4em;
+}
+
+
+thead tr:first-of-type th:not(:first-of-type) {
+    background-color: rgb(103, 179, 230);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Table Text Styles */
+
+body article p {
+    font-family: Verdana;
+    font-size: 100%;
+    line-height: 1.2em;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+}
