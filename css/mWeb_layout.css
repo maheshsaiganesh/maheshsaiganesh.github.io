@@ -19,11 +19,11 @@
    ============================================
 */
 
-@media screen and (max-width: 480px) {
+@media screen  {
 .OPMF img,
 .TAB img,
 .YGIC img{
-    width:device;
+    width: fill;
 }
  nav.horizontal {
     order: 99;
@@ -40,7 +40,7 @@
    ===================================================
 */
 
-@media screen (min-width:481px) and (max-width: 889px){
+@media screen {
 
 nav.horizontal ul {
     display: flex;
@@ -61,7 +61,7 @@ nav.horizontal ul {
 
 @media (min-width:890px) {
 
-    body {
+   body {
         max-width:1500px;
         width: 90%;
         margin-top: 2%;
