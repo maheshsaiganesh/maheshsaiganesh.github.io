@@ -102,7 +102,36 @@ body>header nav.tabs li:hover,
    background-color: rgb(107, 173, 224);
 }
 
+.dropdwn-content {
+   display: none;
+   position: absolute;
+   background-color: rgb(186, 217, 240);
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   border-style: solid;
+   border-radius: 8px;
+   border-width: 4px;
+   border-color: rgb(63, 104, 134);
+   text-align: center;
+   line-height: 1.3em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 14px;
+   font-weight: bolder;
 
+}
+
+.dropdwn-content a {
+   display: block;
+   color: rgb(63, 104, 134);
+   padding: 12px 16px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.Hobbies:hover .dropdwn-content {
+   display: block;
+}
 
 section h1,
 section h2,
@@ -110,7 +139,8 @@ section p,
 section ol h2,
 section ul h2 {
    display: block;
-   padding-left: 4%;
+   padding-left: 45%;
+   padding-right:55%;
    color: rgb(14, 53, 82);
 }
 
@@ -120,7 +150,8 @@ section h1 {
 
 section ol h2,
 section ul h2 {
-   font-size: 2.5em;
+   font-size: 35px;
+   font-weight: bolder;
 }
 
 section ul h1 {
@@ -218,32 +249,3 @@ article table tbody tr td iframe {
 }
 
 
-.dropdwn-content {
-   display: none;
-   position: absolute;
-   background-color: rgb(186, 217, 240);
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-   border-style: solid;
-   border-radius: 8px;
-   border-width: 4px;
-   border-color: rgb(63, 104, 134);
-   text-align: center;
-   line-height: 1.3em;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 14px;
-   font-weight: bolder;
-
-}
-
-.dropdwn-content a {
-   display: block;
-   color: rgb(63, 104, 134);
-   padding: 12px 16px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 16px;
-}
-
-.Hobbies:hover .dropdwn-content {
-   display: block;
-}
