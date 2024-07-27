@@ -53,12 +53,11 @@ body>header>nav.tabs>ul {
    width: 100%;
 }
 
-body>header nav.tabs li {
+body>header nav.tabs li{
    background-color: rgb(186, 217, 240);
    display: block;
    float: left;
    height: 40px;
-   letter-spacing: 3px;
    line-height: 40px;
    margin-left: 4%;
    margin-right: 2%;
@@ -66,26 +65,44 @@ body>header nav.tabs li {
    border-radius: 10px;
 }
 
-body>header nav.tabs li a {
+.Hobbies {
+   display: block;
+   float: left;
+   height: 47px;
+   line-height: 40px;
+   margin-left: 4%;
+   margin-right: 2%;
+   width: 12%;
+   border-radius: 10px;
+}
+button{
+   background-color: rgb(186, 217, 240);
+}
+body>header nav.tabs li a,
+.dropbtn {
    color: rgb(63, 104, 134);
    display: block;
    text-align: center;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 14px;
+   font-size: 18px;
+   letter-spacing: 1px;
    font-weight: bolder;
    width: 97%;
    height: 95%;
    border-style: solid;
    border-radius: 10px;
-   border-width: 2px;
+   border-width: 3px;
    border-color: rgb(63, 104, 134);
-   padding-left: auto;
-   padding-right: auto;
+
 }
 
-body>header nav.tabs li:hover {
+body>header nav.tabs li:hover,
+.Hobbies:hover .dropbtn,
+.dropdwn-content a:hover {
    background-color: rgb(107, 173, 224);
 }
+
+
 
 section h1,
 section h2,
@@ -137,8 +154,8 @@ aside {
    border-radius: 15px;
    border-width: 2px;
    border-color: rgb(63, 104, 134);
-   margin-left:auto;
-   margin-right:auto;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /*Footer*/
@@ -180,13 +197,14 @@ table tbody tr td p {
    line-height: 1.2em;
 }
 
-table figcaption, table figcaption br {
+table figcaption,
+table figcaption br {
    font-size: 1.4em;
    margin-right: auto;
    margin-left: auto;
 }
 
-table img{
+table img {
    margin-left: -50px;
    border-radius: 20px;
 }
@@ -197,4 +215,35 @@ article table tbody tr td figure {
 
 article table tbody tr td iframe {
    margin-left: 30px;
+}
+
+
+.dropdwn-content {
+   display: none;
+   position: absolute;
+   background-color: rgb(186, 217, 240);
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   border-style: solid;
+   border-radius: 8px;
+   border-width: 4px;
+   border-color: rgb(63, 104, 134);
+   text-align: center;
+   line-height: 1.3em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 14px;
+   font-weight: bolder;
+
+}
+
+.dropdwn-content a {
+   display: block;
+   color: rgb(63, 104, 134);
+   padding: 12px 16px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 16px;
+}
+
+.Hobbies:hover .dropdwn-content {
+   display: block;
 }
