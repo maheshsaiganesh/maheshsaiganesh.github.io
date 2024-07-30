@@ -16,9 +16,7 @@ label {
     font-size: 20px;
  }
  
- p {
-    font-size: 1.3em;
- }
+
  
  input,
  select:first-of-type,
@@ -60,7 +58,7 @@ label {
  table tbody tr td label {
     margin-top: -10px;
     margin-bottom: 5px;
-    margin-left: -5%;
+    margin-left: -10%;
     padding-left:5%
 
  }
