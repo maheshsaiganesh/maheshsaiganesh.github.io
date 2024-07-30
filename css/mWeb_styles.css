@@ -53,7 +53,7 @@ body>header>nav.tabs>ul {
    width: 100%;
 }
 
-body>header nav.tabs li{
+body>header nav.tabs li {
    background-color: rgb(186, 217, 240);
    display: block;
    float: left;
@@ -75,16 +75,18 @@ body>header nav.tabs li{
    width: 12%;
    border-radius: 10px;
 }
-button{
+
+button {
    background-color: rgb(186, 217, 240);
 }
+
 body>header nav.tabs li a,
 .dropbtn {
    color: rgb(63, 104, 134);
    display: block;
    text-align: center;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 18px;
+   font-size: 25px;
    letter-spacing: 1px;
    font-weight: bolder;
    width: 97%;
@@ -108,7 +110,7 @@ body>header nav.tabs li:hover,
    position: absolute;
    background-color: rgb(186, 217, 240);
    /* min-width: 160px; */
-   width:10.5%;
+   width: 10.5%;
    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
    border-style: solid;
    border-radius: 8px;
@@ -141,11 +143,9 @@ body>header nav.tabs li:hover,
 }
 
 section h1,
-section h2{
+section h2 {
 
    display: block;
-   padding-left: 45%;
-   padding-right:55%;
    color: rgb(14, 53, 82);
 }
 
@@ -153,17 +153,23 @@ section h1 {
    font-size: 3em;
 }
 
-section h2{
-margin-left:-15.5%;
-   font-size: 35px;
+section h2 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 40px;
    font-weight: bolder;
    text-wrap: nowrap;
+   text-align: center;
 
 }
 
-/* section h1 {
-   padding-left: 0%;
-} */
+section h3 {
+   font-size: 25px;
+   font-weight: bolder;
+   text-wrap: nowrap;
+   text-align: center;
+}
+
+
 
 /* Change logo size */
 
@@ -235,14 +241,15 @@ table tbody tr td p {
    line-height: 1.2em;
    padding-left: 30%;
    padding-bottom: 10%;
-   padding-top:auto;
+   padding-top: auto;
 }
 
-img[alt~="Temple"] figcaption{
+img[alt~="Temple"] figcaption {
    font-size: 10em;
    margin-right: 100px;
    margin-left: auto;
 }
+
 table figcaption,
 table figcaption br {
    font-size: 1.6em;
@@ -252,48 +259,88 @@ table figcaption br {
 
 
 
- img[alt~="Niagra_Bridge"], img[alt~="Leopard"], img[alt~="Windmills"]{
+img[alt~="Niagra_Bridge"],
+img[alt~="Leopard"],
+img[alt~="Windmills"] {
    border-radius: 20px;
    display: block;
    display: inline-block;
-   margin-left:10%;
+   margin-left: 10%;
    margin-right: auto;
 
 }
 
-img[alt~="Temple"], img[alt~="Koala"]{
+img[alt~="Temple"],
+img[alt~="Koala"] {
    border-radius: 20px;
    display: block;
    display: inline-block;
-   margin-left:25%;
+   margin-left: 25%;
    margin-right: auto;
 }
 
-img[alt~="YGIC"]{
+img[alt~="YGIC"] {
    border-radius: 20px;
    display: block;
    display: inline-block;
-   margin-left:10%;
-   margin-right: auto;
-
-}
-
-table img[alt~="OPMF"]{
-   border-radius: 20px;
-   display: block;
-   display: inline-block;
-   margin-left:20%;
+   margin-left: 12%;
    margin-right: auto;
 
 }
 
-table img[alt~="TAB"]{
+table#YGIC figcaption {
+   display: block;
+   display: inline-block;
+   margin-left: 21%;
+   margin-right: auto;
+   font-size: 200%;
+   font-weight: bolder;
+
+}
+
+table img[alt~="OPMF"] {
    border-radius: 20px;
    display: block;
    display: inline-block;
-   margin-left:20%;
+   margin-left: 17%;
    margin-right: auto;
 
+}
+
+table#OPMF figcaption {
+   display: block;
+   display: inline-block;
+   margin-left: 35%;
+   margin-right: auto;
+   font-size: 200%;
+   font-weight: bolder;
+}
+
+table img[alt~="TAB"] {
+   border-radius: 20px;
+   display: block;
+   display: inline-block;
+   margin-left: 1.5%;
+   margin-right: auto;
+
+}
+
+table#TAB figcaption {
+   display: block;
+   display: inline-block;
+   margin-left: 29%;
+   margin-right: auto;
+   font-size: 200%;
+   font-weight: bolder;
+}
+table#OPMF p, table#TAB p, table#YGIC p{
+   display: block;
+   display: inline-block;
+   margin-left: -15%;
+   margin-right: 10%;
+   font-size: 200%;
+   font-weight: bolder;
+   text-align: center;
 }
 
 article table tbody tr td figure {
@@ -303,5 +350,3 @@ article table tbody tr td figure {
 article table tbody tr td iframe {
    margin-left: 30px;
 }
-
-
