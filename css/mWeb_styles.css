@@ -263,7 +263,6 @@ img[alt~="Niagra_Bridge"],
 img[alt~="Leopard"],
 img[alt~="Windmills"] {
    border-radius: 20px;
-   display: block;
    display: inline-block;
    margin-left: 10%;
    margin-right: auto;
@@ -273,15 +272,59 @@ img[alt~="Windmills"] {
 img[alt~="Temple"],
 img[alt~="Koala"] {
    border-radius: 20px;
-   display: block;
    display: inline-block;
    margin-left: 25%;
    margin-right: auto;
 }
 
+
+table#Photography p {
+   display:inline-block;
+   text-align: center;
+   margin-left: -30%;
+   margin-right: auto;
+   margin-bottom:-8%;
+   margin-top: -1%;
+}
+
+table#Temple figcaption,
+table#Koala figcaption,
+table#Niagra figcaption,
+table#Leopard figcaption,
+table#Windmills figcaption {
+   display: inline-block;
+   font-size: 200%;
+   font-weight: bolder;
+}
+
+table#Temple figcaption {
+   margin-left: 41%;
+   margin-right: auto;
+}
+
+table#Koala figcaption {
+   margin-left: 41.5%;
+   margin-right: auto;
+}
+
+table#Niagra figcaption {
+   margin-left: 42%;
+   margin-right: auto;
+}
+
+table#Leopard figcaption {
+   margin-left: 40%;
+   margin-right: auto;
+}
+
+table#Windmills figcaption {
+   margin-left: 41%;
+   margin-right: auto;
+}
+
+
 img[alt~="YGIC"] {
    border-radius: 20px;
-   display: block;
    display: inline-block;
    margin-left: 12%;
    margin-right: auto;
@@ -289,7 +332,6 @@ img[alt~="YGIC"] {
 }
 
 table#YGIC figcaption {
-   display: block;
    display: inline-block;
    margin-left: 21%;
    margin-right: auto;
@@ -300,7 +342,6 @@ table#YGIC figcaption {
 
 table img[alt~="OPMF"] {
    border-radius: 20px;
-   display: block;
    display: inline-block;
    margin-left: 17%;
    margin-right: auto;
@@ -308,7 +349,6 @@ table img[alt~="OPMF"] {
 }
 
 table#OPMF figcaption {
-   display: block;
    display: inline-block;
    margin-left: 35%;
    margin-right: auto;
@@ -318,7 +358,6 @@ table#OPMF figcaption {
 
 table img[alt~="TAB"] {
    border-radius: 20px;
-   display: block;
    display: inline-block;
    margin-left: 1.5%;
    margin-right: auto;
@@ -326,15 +365,16 @@ table img[alt~="TAB"] {
 }
 
 table#TAB figcaption {
-   display: block;
    display: inline-block;
    margin-left: 29%;
    margin-right: auto;
    font-size: 200%;
    font-weight: bolder;
 }
-table#OPMF p, table#TAB p, table#YGIC p{
-   display: block;
+
+table#OPMF p,
+table#TAB p,
+table#YGIC p {
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
