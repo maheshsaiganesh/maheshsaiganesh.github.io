@@ -238,17 +238,62 @@ table tbody tr td p {
    padding-top:auto;
 }
 
+img[alt~="Temple"] figcaption{
+   font-size: 10em;
+   margin-right: 100px;
+   margin-left: auto;
+}
 table figcaption,
 table figcaption br {
-   font-size: 1.4em;
+   font-size: 1.6em;
    margin-right: auto;
    margin-left: auto;
 }
 
-table img {
+
+
+ img[alt~="Niagra_Bridge"], img[alt~="Leopard"], img[alt~="Windmills"]{
    border-radius: 20px;
-   width: 200%;
-   height:auto;
+   display: block;
+   display: inline-block;
+   margin-left:10%;
+   margin-right: auto;
+
+}
+
+img[alt~="Temple"], img[alt~="Koala"]{
+   border-radius: 20px;
+   display: block;
+   display: inline-block;
+   margin-left:25%;
+   margin-right: auto;
+}
+
+img[alt~="YGIC"]{
+   border-radius: 20px;
+   display: block;
+   display: inline-block;
+   margin-left:10%;
+   margin-right: auto;
+
+}
+
+table img[alt~="OPMF"]{
+   border-radius: 20px;
+   display: block;
+   display: inline-block;
+   margin-left:20%;
+   margin-right: auto;
+
+}
+
+table img[alt~="TAB"]{
+   border-radius: 20px;
+   display: block;
+   display: inline-block;
+   margin-left:20%;
+   margin-right: auto;
+
 }
 
 article table tbody tr td figure {
