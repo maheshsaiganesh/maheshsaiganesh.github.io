@@ -261,7 +261,8 @@ table figcaption br {
 
 img[alt~="Niagra_Bridge"],
 img[alt~="Leopard"],
-img[alt~="Windmills"] {
+img[alt~="Windmills"],
+img[alt~="Smokies"] {
    border-radius: 20px;
    display: inline-block;
    margin-left: 10%;
@@ -269,13 +270,13 @@ img[alt~="Windmills"] {
 
 }
 
-img[alt~="Temple"],
-img[alt~="Koala"] {
+img[alt~="Temple"] {
    border-radius: 20px;
    display: inline-block;
    margin-left: 25%;
    margin-right: auto;
 }
+
 
 
 table#Photography p {
@@ -288,7 +289,7 @@ table#Photography p {
 }
 
 table#Temple figcaption,
-table#Koala figcaption,
+table#Smokies figcaption,
 table#Niagra figcaption,
 table#Leopard figcaption,
 table#Windmills figcaption {
@@ -302,8 +303,8 @@ table#Temple figcaption {
    margin-right: auto;
 }
 
-table#Koala figcaption {
-   margin-left: 41.5%;
+table#Smokies figcaption {
+   margin-left: 40.5%;
    margin-right: auto;
 }
 
