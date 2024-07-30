@@ -10,6 +10,7 @@ label {
     display: block;
     clear:right;
     margin: auto auto;
+    text-wrap: nowrap;
     width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
