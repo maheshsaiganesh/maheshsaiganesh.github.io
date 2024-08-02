@@ -42,7 +42,7 @@ body>header nav.tabs {
    height: 130px;
    margin-top: 10px;
    margin-bottom: 10px;
-   margin-left: auto;
+   margin-left: 8px;
    margin-right: auto;
    width: 105%;
 }
@@ -86,7 +86,7 @@ body>header nav.tabs li a,
    display: block;
    text-align: center;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 25px;
+   font-size: 200%;
    letter-spacing: 1px;
    font-weight: bolder;
    width: 97%;
@@ -155,15 +155,22 @@ section h1 {
 
 section h2 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 40px;
+   font-size: 50px;
    font-weight: bolder;
    text-wrap: nowrap;
    text-align: center;
-
+   margin-top: -0.05%;
+   border-style: solid;
+   border-radius: 10px;
+   border-width: 5px;
+   line-height: 75px;
+  background-color: rgb(168, 206, 235);
+  border-color: rgb(63, 104, 134);
+  margin-left:-2.8%;
 }
 
 section h3 {
-   font-size: 25px;
+   font-size: 35px;
    font-weight: bolder;
    text-wrap: nowrap;
    text-align: center;
@@ -279,13 +286,22 @@ img[alt~="Temple"] {
 
 
 
-table#Photography p {
+table#Photography p, table#Hiking p, table#Writing p{
    display:inline-block;
    text-align: center;
    margin-left: -30%;
    margin-right: auto;
    margin-bottom:-8%;
    margin-top: -1%;
+}
+
+table#Douglass p {
+   display: inline-block;
+   margin-left: -15%;
+   margin-right: 10%;
+   font-size: 200%;
+   font-weight: bolder;
+   text-align: center;
 }
 
 table#Temple figcaption,
@@ -379,7 +395,9 @@ table#YGIC p {
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
-   font-size: 200%;
+   margin-bottom: -5%;
+   margin-top:-0.5%;
+   font-size: 250%;
    font-weight: bolder;
    text-align: center;
 }
