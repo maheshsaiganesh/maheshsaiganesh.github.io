@@ -166,7 +166,6 @@ section h2 {
    line-height: 75px;
   background-color: rgb(168, 206, 235);
   border-color: rgb(63, 104, 134);
-  margin-left:-2.8%;
 }
 
 section h3 {
@@ -391,7 +390,10 @@ table#TAB figcaption {
 
 table#OPMF p,
 table#TAB p,
-table#YGIC p {
+table#YGIC p,
+table#Hiking p,
+table#Photography p,
+table#Writing p {
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
