@@ -149,8 +149,16 @@ section h2 {
    color: rgb(14, 53, 82);
 }
 
-section h1 {
+section h1,
+table#Home h1 {
    font-size: 3em;
+}
+
+table#Home h1 {
+   display: inline-block;
+   padding-left: 10%;
+margin-top: 10%;
+
 }
 
 section h2 {
@@ -164,8 +172,8 @@ section h2 {
    border-radius: 10px;
    border-width: 5px;
    line-height: 75px;
-  background-color: rgb(168, 206, 235);
-  border-color: rgb(63, 104, 134);
+   background-color: rgb(168, 206, 235);
+   border-color: rgb(63, 104, 134);
 }
 
 section h3 {
@@ -245,9 +253,9 @@ table tbody tr td p {
    margin-left: auto;
    height: 100%;
    line-height: 1.2em;
-   padding-left: 30%;
-   padding-bottom: 10%;
-   padding-top: auto;
+   padding-left: 10%;
+   margin-top: -6%;
+
 }
 
 img[alt~="Temple"] figcaption {
@@ -268,12 +276,19 @@ table figcaption br {
 img[alt~="Niagra_Bridge"],
 img[alt~="Leopard"],
 img[alt~="Windmills"],
-img[alt~="Smokies"] {
+img[alt~="Smokies"],
+img[alt~="M_Portrait"] {
    border-radius: 20px;
    display: inline-block;
-   margin-left: 10%;
    margin-right: auto;
 
+}
+
+img[alt~="Niagra_Bridge"],
+img[alt~="Leopard"],
+img[alt~="Windmills"],
+img[alt~="Smokies"]{
+   margin-left: 10%;
 }
 
 img[alt~="Temple"] {
@@ -285,12 +300,14 @@ img[alt~="Temple"] {
 
 
 
-table#Photography p, table#Hiking p, table#Writing p{
-   display:inline-block;
+table#Photography p,
+table#Hiking p,
+table#Writing p {
+   display: inline-block;
    text-align: center;
    margin-left: -30%;
    margin-right: auto;
-   margin-bottom:-8%;
+   margin-bottom: -8%;
    margin-top: -1%;
 }
 
@@ -301,6 +318,7 @@ table#Douglass p {
    font-size: 200%;
    font-weight: bolder;
    text-align: center;
+   padding-left: 30%;
 }
 
 table#Temple figcaption,
@@ -312,6 +330,13 @@ table#Windmills figcaption {
    font-size: 200%;
    font-weight: bolder;
 }
+table#Home figcaption{
+display: inline-block;
+text-align: center;
+padding-left: 35%;
+padding-right: auto;
+}
+
 
 table#Temple figcaption {
    margin-left: 41%;
@@ -398,10 +423,11 @@ table#Writing p {
    margin-left: -15%;
    margin-right: 10%;
    margin-bottom: -5%;
-   margin-top:-0.5%;
+   margin-top: -0.5%;
    font-size: 250%;
    font-weight: bolder;
    text-align: center;
+   padding-left: 30%;
 }
 
 article table tbody tr td figure {
