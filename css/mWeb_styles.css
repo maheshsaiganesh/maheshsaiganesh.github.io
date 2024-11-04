@@ -302,7 +302,7 @@ img[alt~="Temple"] {
 
 table#Photography p,
 table#Hiking p,
-table#Writing p {
+table#CAD p {
    display: inline-block;
    text-align: center;
    margin-left: -30%;
@@ -311,7 +311,7 @@ table#Writing p {
    margin-top: -1%;
 }
 
-table#Douglass p {
+table#CAD_Photos p {
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
@@ -418,7 +418,7 @@ table#TAB p,
 table#YGIC p,
 table#Hiking p,
 table#Photography p,
-table#Writing p {
+table#CAD p {
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
@@ -437,3 +437,4 @@ article table tbody tr td figure {
 article table tbody tr td iframe {
    margin-left: 30px;
 }
+
