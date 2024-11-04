@@ -39,8 +39,8 @@ table td {
 }
 
 th {
-    background-color: rgb(103, 179, 230);
-    color: rgb(255, 255, 255);
+    background-color: rgb(168, 206, 235);
+    color: rgb(14, 53, 82);
     font-family: "Brush Script MT", "Lucida Handwriting", serif;
     font-weight: bold;
 }
@@ -70,8 +70,8 @@ thead tr th {
 
 
 thead tr:first-of-type th:not(:first-of-type) {
-    background-color: rgb(103, 179, 230);
-    color: rgb(255, 255, 255);
+    background-color: rgb(168, 206, 235);
+    color: rgb(14, 53, 82);
     font-weight: bold;
 }
 
