@@ -41,12 +41,12 @@ table td {
 th {
     background-color: rgb(168, 206, 235);
     color: rgb(14, 53, 82);
-    font-family: "Brush Script MT", "Lucida HandCAD", serif;
+    font-family: "Lucida HandCAD", serif;
     font-weight: bold;
 }
 
 th:first-child {
-    font-size: 1.8em;
+    font-size:2.3em;
 }
 
 /* Column Styles */
@@ -65,7 +65,7 @@ col {
 
 thead tr th {
     height: 37px;
-    font-size: 1.4em;
+    font-size: 2em;
 }
 
 
