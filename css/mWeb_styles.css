@@ -303,7 +303,11 @@ img[alt~="OPMF_2"] {
    margin-left: 12%;
 }
 
-img[alt~="Temple"] {
+img[alt~="Temple"],
+img[alt~="Shenandoah"],
+img[alt~="Smokies"],
+img[alt~="Cuyahoga"],
+img[alt~="Local"] {
    border-radius: 20px;
    display: inline-block;
    margin-left: 26%;
@@ -343,7 +347,11 @@ table#OPMF_1 figcaption,
 table#OPMF_4 figcaption,
 table#OPMF_9 figcaption,
 table#OPMF_8 figcaption,
-table#OPMF_2 figcaption {
+table#OPMF_2 figcaption,
+table#Shenandoah figcaption,
+table#Smokies figcaption, 
+table#Cuyahoga figcaption
+table#Local figcaption {
    display: inline-block;
    font-size: 200%;
    font-weight: bolder;
@@ -379,6 +387,24 @@ table#Leopard figcaption {
 }
 
 table#Windmills figcaption {
+   margin-left: 43%;
+   margin-right: auto;
+}
+
+table#Shenandoah figcaption{
+   margin-left: 43%;
+   margin-right: auto;
+}
+table#Smokies figcaption{
+   margin-left: 43%;
+   margin-right: auto;
+}
+table#Cuyahoga figcaption{
+   margin-left: 43%;
+   margin-right: auto;
+}
+
+table#Local figcaption{
    margin-left: 43%;
    margin-right: auto;
 }
