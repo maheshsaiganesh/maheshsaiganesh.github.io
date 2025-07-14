@@ -276,7 +276,6 @@ table figcaption br {
 img[alt~="Niagra_Bridge"],
 img[alt~="Leopard"],
 img[alt~="Windmills"],
-img[alt~="Smokies"],
 img[alt~="M_Portrait"],
 img[alt~="OPMF_5"],
 img[alt~="OPMF_1"],
@@ -290,10 +289,19 @@ img[alt~="OPMF_2"] {
 
 }
 
+img[alt~="Smokies"] {
+   border-radius: 20px;
+   display: inline-block;
+   margin-right: 12%;
+   margin-left: 12%;
+   border-radius: 20px;
+   display: inline-block;
+
+}
+
 img[alt~="Niagra_Bridge"],
 img[alt~="Leopard"],
 img[alt~="Windmills"],
-img[alt~="Smokies"],
 img[alt~="OPMF_5"],
 img[alt~="OPMF_1"],
 img[alt~="OPMF_4"],
@@ -305,7 +313,6 @@ img[alt~="OPMF_2"] {
 
 img[alt~="Temple"],
 img[alt~="Shenandoah"],
-img[alt~="Smokies"],
 img[alt~="Cuyahoga"],
 img[alt~="Local"] {
    border-radius: 20px;
