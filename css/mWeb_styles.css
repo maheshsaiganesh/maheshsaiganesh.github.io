@@ -29,13 +29,18 @@ nav a {
 body>header {
    background-color: rgb(186, 217, 240);
    height: 105px;
+   width:90%;
    margin-bottom: 30px;
-   position: relative;
    padding-top: 10px;
-   border-top-right-radius: 20px;
-   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   position: fixed;
 }
 
+#header_spacer{
+   display: block;
+   height:155px;
+}
 body>header nav.tabs {
    position: relative;
    bottom: 0px;
@@ -109,7 +114,6 @@ body>header nav.tabs li:hover,
    display: none;
    position: absolute;
    background-color: rgb(186, 217, 240);
-   /* min-width: 160px; */
    width: 10.5%;
    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
    border-style: solid;

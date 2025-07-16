@@ -7,128 +7,127 @@ Filename: mWeb_forms.css
 
 /*Query Form styles*/
 label {
-    display: block;
-    clear:right;
-    margin: auto auto;
-    text-wrap: nowrap;
-    width: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    font-weight:bold;
-    font-size:2em;
- }
- 
-#non-survey{
+   display: block;
+   clear: right;
+   margin: auto auto;
+   text-wrap: nowrap;
+   width: 200px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight: bold;
+   font-size: 2em;
+}
+
+#non-survey {
    text-align: center;
 }
-#survey_query label{
-text-indent: -20%;
+
+#survey_query label {
+   text-indent: -20%;
 }
- 
- input,
- select:first-of-type,
- textarea {
-    display: block;
-    margin: auto auto;
-    width: 200px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    background-color: rgb(214, 232, 245);
-    border-radius: 5px;
-    border-width: 2px;
-    border-color: rgb(63, 104, 134);
-    
- }
 
- textarea {
-    height: 100px;
-    font-size: 1.3em;
- }
- 
- form p {
-    clear: left;
-    text-align: center;
-    padding-top: 40px;
-    font-size: 20px;
-   font-weight:bold;
-       font-size:2em;
- }
- 
- table {
-    margin-top: -10px;
-    margin-bottom: -10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10px;
- 
- }
- 
- /*radio/checkbox labels*/
- table tbody tr td label {
-    margin-top: -10px;
-    margin-bottom: 5px;
-    margin-left: -8%;
-    padding-left:2%
+input,
+select:first-of-type,
+textarea {
+   display: block;
+   margin: auto auto;
+   width: 200px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   background-color: rgb(214, 232, 245);
+   border-radius: 5px;
+   border-width: 2px;
+   border-color: rgb(63, 104, 134);
 
- }
+}
+
+textarea {
+   height: 100px;
+   font-size: 1.3em;
+}
+
+form p {
+   clear: left;
+   text-align: center;
+   padding-top: 40px;
+   font-size: 20px;
+   font-weight: bold;
+   font-size: 2em;
+}
+
+table {
+   margin-top: -10px;
+   margin-bottom: -10px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 10px;
+
+}
+
+/*radio/checkbox labels*/
+table tbody tr td label {
+   margin-top: -10px;
+   margin-bottom: 5px;
+   margin-left: -8%;
+   padding-left: 2%
+}
 
 /*Input Button stylings*/
- input[type='submit'],
- input[type='reset'] {
-    background-color: rgb(186, 217, 240);
-    font-weight: bold;
-    color: rgb(63, 104, 134);
-    border-radius: 20px;
-    float: none;
-    display: inline;
-    font-size: 30px;
-    height: 45px;
-    width: 150px;
- }
+input[type='submit'],
+input[type='reset'] {
+   background-color: rgb(186, 217, 240);
+   font-weight: bold;
+   color: rgb(63, 104, 134);
+   border-radius: 20px;
+   float: none;
+   display: inline;
+   font-size: 30px;
+   height: 45px;
+   width: 150px;
+}
 
- input[type='radio'],
- input[type='checkbox']{
-   margin-left:75%;
- }
+input[type='radio'],
+input[type='checkbox'] {
+   margin-left: 75%;
+}
 
- input[type='radio']:after,
- input[type='checkbox']:after {
-   position:absolute;
-    width: 10px;
-    height: 10px;
-    margin-top: -1px;
-    margin-bottom: 5px;
-    margin-left: 93px;
-    background-color: rgb(186, 217, 240);
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
- }
- 
- input[type='radio']:after {
-      position:absolute;
-    border-radius: 10px;
- }
- 
- input[type='radio']:checked:after,
- input[type='checkbox']:checked:after {
-      position:absolute;
-    width: 10px;
-    height: 10px;
-    margin-top: -1px;
-    margin-bottom: 5px;
-    margin-left: 93px;
-    background-color: rgb(63, 104, 134);
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
- }
- 
- input[type='radio']:checked:after {
-      position:absolute;
-    border-radius: 10px;
- }
- 
+input[type='radio']:after,
+input[type='checkbox']:after {
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   margin-top: -1px;
+   margin-bottom: 5px;
+   margin-left: 93px;
+   background-color: rgb(186, 217, 240);
+   content: '';
+   display: inline-block;
+   visibility: visible;
+   border: 2px solid white;
+}
+
+input[type='radio']:after {
+   position: absolute;
+   border-radius: 10px;
+}
+
+input[type='radio']:checked:after,
+input[type='checkbox']:checked:after {
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   margin-top: -1px;
+   margin-bottom: 5px;
+   margin-left: 93px;
+   background-color: rgb(63, 104, 134);
+   content: '';
+   display: inline-block;
+   visibility: visible;
+   border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+   position: absolute;
+   border-radius: 10px;
+}

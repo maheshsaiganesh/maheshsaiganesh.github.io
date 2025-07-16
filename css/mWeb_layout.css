@@ -64,9 +64,14 @@ nav.horizontal ul {
    body {
         max-width:1500px;
         width: 90%;
-        margin-top: 2%;
+        margin-top: 0%;
         margin-right: auto;
         margin-bottom: 5%;
         margin-left: auto;
      }
+}
+
+#header_spacer{
+   display: block;
+   height:155px;
 }
