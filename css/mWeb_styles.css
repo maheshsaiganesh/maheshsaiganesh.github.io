@@ -35,6 +35,7 @@ body>header {
    border-bottom-right-radius: 20px;
    border-bottom-left-radius: 20px;
    position: fixed;
+   z-index: 1000;
 }
 
 #header_spacer{

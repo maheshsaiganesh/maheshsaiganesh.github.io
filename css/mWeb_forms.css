@@ -22,6 +22,12 @@ label {
 #regList {
    text-align: center;
 }
+#non-survey{
+   margin-left: 3%;
+}
+#queryBox, #queryBox label{
+   margin-left:25%;
+}
 
 #survey_query label {
    text-indent: -20%;
@@ -62,6 +68,7 @@ form p {
    font-size: 20px;
    font-weight: bold;
    font-size: 2em;
+   padding-left:3%;
 }
 
 table {
@@ -91,7 +98,7 @@ input[type='reset'] {
    float: none;
    display: inline;
    font-size: 30px;
-   height: 45px;
+   height: 50px;
    width: 150px;
 }
 
