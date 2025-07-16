@@ -71,6 +71,7 @@
                 <option value="Prof.">
                 <option value="Dr.">
             </datalist> -->
+            <div id="non-survey">
             <label for="fNBox">First Name*</label>
             <input name="First Name" id="fnBox" type="text" required />
             <label for="lnBox">Last Name*</label>
@@ -84,8 +85,12 @@
                 <option value="request">Request</option>
                 <option value="misc">Other/Miscellaneous</option>
             </select>
+            </div>
+            <div id="survey_query">
             <label for="queryBox">Please enter your response below*</label>
             <textarea name="Query" id="queryBox" required></textarea>
+            </div>
+
             <!-- <label for="phoneBox">Phone Number</label>
             <input name="Phone number" id="phoneBox" type="tel" placeholder="(nnn) nnn-nnnn"
                 pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" /> -->

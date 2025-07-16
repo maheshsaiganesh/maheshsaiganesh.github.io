@@ -314,7 +314,8 @@ img[alt~="OPMF_2"] {
 img[alt~="Temple"],
 img[alt~="Shenandoah"],
 img[alt~="Cuyahoga"],
-img[alt~="Local"] {
+img[alt~="Local"],
+img[alt~="Milo_Smokies"] {
    border-radius: 20px;
    display: inline-block;
    margin-left: 26%;
@@ -358,7 +359,8 @@ table#OPMF_2 figcaption,
 table#Shenandoah figcaption,
 table#Smokies figcaption, 
 table#Cuyahoga figcaption
-table#Local figcaption {
+table#Local figcaption,
+table#Milo_Smokies figcaption{
    display: inline-block;
    font-size: 200%;
    font-weight: bolder;
@@ -373,7 +375,7 @@ table#Home figcaption {
 
 
 table#Temple figcaption {
-   margin-left: 43%;
+   margin-left: 46%;
    margin-right: auto;
 }
 
@@ -411,8 +413,12 @@ table#Cuyahoga figcaption{
    margin-right: auto;
 }
 
-table#Local figcaption{
-   margin-left: 43%;
+table#Local figcaption {
+   margin-left: 45%;
+   margin-right: auto;
+}
+table#Milo_Smokies figcaption {
+   margin-left: 40%;
    margin-right: auto;
 }
 
@@ -475,7 +481,7 @@ table#CAD p {
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
-   margin-bottom: -5%;
+   margin-bottom: 1%;
    margin-top: -0.5%;
    font-size: 250%;
    font-weight: bolder;

@@ -16,9 +16,15 @@ label {
     margin-bottom: 10px;
     font-size: 20px;
     font-weight:bold;
+    font-size:2em;
  }
  
-
+#non-survey{
+   text-align: center;
+}
+#survey_query label{
+text-indent: -20%;
+}
  
  input,
  select:first-of-type,
@@ -47,6 +53,7 @@ label {
     padding-top: 40px;
     font-size: 20px;
    font-weight:bold;
+       font-size:2em;
  }
  
  table {
@@ -62,11 +69,11 @@ label {
  table tbody tr td label {
     margin-top: -10px;
     margin-bottom: 5px;
-    margin-left: -10%;
-    padding-left:5%
+    margin-left: -8%;
+    padding-left:2%
 
  }
- 
+
 /*Input Button stylings*/
  input[type='submit'],
  input[type='reset'] {
@@ -83,7 +90,7 @@ label {
 
  input[type='radio'],
  input[type='checkbox']{
-   margin-left:78%;
+   margin-left:75%;
  }
 
  input[type='radio']:after,
