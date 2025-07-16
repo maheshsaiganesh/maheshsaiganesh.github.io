@@ -18,7 +18,8 @@ label {
    font-size: 2em;
 }
 
-#non-survey {
+#non-survey,
+#regList {
    text-align: center;
 }
 
@@ -45,6 +46,13 @@ textarea {
 textarea {
    height: 100px;
    font-size: 1.3em;
+}
+#regList{
+   height: 40px;
+   font-size: 1.6em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+   color: rgb(14, 53, 82);
 }
 
 form p {
