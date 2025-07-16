@@ -160,6 +160,10 @@ table#Home h1 {
 font-size: 4em;
 
 }
+table#Home figcaption{
+font-size: 180%;
+text-indent: 10%;
+}
 
 section h2 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -362,8 +366,9 @@ table#Cuyahoga figcaption
 table#Local figcaption,
 table#Milo_Smokies figcaption{
    display: inline-block;
-   font-size: 200%;
+   font-size: 250%;
    font-weight: bolder;
+
 }
 
 table#Home figcaption {
@@ -385,27 +390,27 @@ table#Smokies figcaption {
 }
 
 table#Niagra figcaption {
-   margin-left: 45.5%;
+   margin-left: 46%;
    margin-right: auto;
 }
 
 
 table#Leopard figcaption {
-   margin-left: 44%;
+   margin-left: 46%;
    margin-right: auto;
 }
 
 table#Windmills figcaption {
-   margin-left: 43%;
+   margin-left: 45%;
    margin-right: auto;
 }
 
 table#Shenandoah figcaption{
-   margin-left: 43%;
+   margin-left: 39%;
    margin-right: auto;
 }
 table#Smokies figcaption{
-   margin-left: 43%;
+   margin-left: 38%;
    margin-right: auto;
 }
 table#Cuyahoga figcaption{
@@ -418,23 +423,25 @@ table#Local figcaption {
    margin-right: auto;
 }
 table#Milo_Smokies figcaption {
-   margin-left: 40%;
+   margin-left: 41%;
    margin-right: auto;
+   font-size: 200%;
+   font-weight: bolder;
 }
 
 img[alt~="YGIC"] {
    border-radius: 20px;
    display: inline-block;
-   margin-left: 12%;
+   margin-left: 23%;
    margin-right: auto;
 
 }
 
 table#YGIC figcaption {
    display: inline-block;
-   margin-left: 36%;
+   margin-left: 32.5%;
    margin-right: auto;
-   font-size: 200%;
+   font-size: 225%;
    font-weight: bolder;
 
 }
@@ -466,9 +473,9 @@ table img[alt~="TAB"] {
 
 table#TAB figcaption {
    display: inline-block;
-   margin-left: 35%;
+   margin-left: 29%;
    margin-right: auto;
-   font-size: 200%;
+   font-size: 235%;
    font-weight: bolder;
 }
 
@@ -499,23 +506,27 @@ article table tbody tr td iframe {
 
 /*OPMF Images*/
 table#OPMF_5 figcaption {
-   margin-left: 23%;
-   margin-right: auto;
+   margin-left: 28%;
+   margin-right: 22%;
+   text-wrap: wrap;
+   text-align: center;
 }
 
 table#OPMF_1 figcaption {
-   margin-left: 31%;
+   margin-left: 23%;
    margin-right: auto;
 }
 
 table#OPMF_4 figcaption {
-   margin-left: 39%;
+   margin-left: 34%;
    margin-right: auto;
 }
 
 table#OPMF_9 figcaption {
-   margin-left: 23%;
-   margin-right: auto;
+   margin-left: 29%;
+   margin-right: 21%;
+   text-wrap: wrap;
+   text-align: center;
 }
 
 table#OPMF_8 figcaption {
