@@ -15,6 +15,7 @@ label {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
+    font-weight:bold;
  }
  
 
@@ -32,6 +33,7 @@ label {
     border-radius: 5px;
     border-width: 2px;
     border-color: rgb(63, 104, 134);
+    
  }
 
  textarea {
@@ -44,6 +46,7 @@ label {
     text-align: center;
     padding-top: 40px;
     font-size: 20px;
+   font-weight:bold;
  }
  
  table {
@@ -85,6 +88,7 @@ label {
 
  input[type='radio']:after,
  input[type='checkbox']:after {
+   position:absolute;
     width: 10px;
     height: 10px;
     margin-top: -1px;
@@ -98,11 +102,13 @@ label {
  }
  
  input[type='radio']:after {
+      position:absolute;
     border-radius: 10px;
  }
  
  input[type='radio']:checked:after,
  input[type='checkbox']:checked:after {
+      position:absolute;
     width: 10px;
     height: 10px;
     margin-top: -1px;
@@ -116,6 +122,7 @@ label {
  }
  
  input[type='radio']:checked:after {
+      position:absolute;
     border-radius: 10px;
  }
  
