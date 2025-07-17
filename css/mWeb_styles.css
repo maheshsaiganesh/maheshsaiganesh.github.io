@@ -299,7 +299,8 @@ img[alt~="OPMF_1"],
 img[alt~="OPMF_4"],
 img[alt~="OPMF_9"],
 img[alt~="OPMF_8"],
-img[alt~="OPMF_2"] {
+img[alt~="OPMF_2"],
+img[alt~="SciOly"] {
    border-radius: 20px;
    display: inline-block;
    margin-right: auto;
@@ -311,10 +312,7 @@ img[alt~="M_Portrait"] {
    margin-left: 20%;
    margin-right: auto;
    margin-top:50px;
-   border-top-right-radius: 600px;
-   border-top-left-radius: 600px;
-   border-bottom-right-radius: 600px;
-   border-bottom-left-radius: 600px;
+   border-radius: 600px;
 }
 
 img[alt~="Smokies"] {
@@ -335,7 +333,8 @@ img[alt~="OPMF_1"],
 img[alt~="OPMF_4"],
 img[alt~="OPMF_9"],
 img[alt~="OPMF_8"],
-img[alt~="OPMF_2"] {
+img[alt~="OPMF_2"],
+img[alt~="SciOly"] {
    margin-left: 12%;
 }
 
@@ -387,7 +386,8 @@ table#OPMF_2 figcaption,
 table#Shenandoah figcaption,
 table#Smokies figcaption,
 table#Cuyahoga figcaption table#Local figcaption,
-table#Milo_Smokies figcaption {
+table#Milo_Smokies figcaption,
+table#SciOly figcaption{
    display: inline-block;
    font-size: 250%;
    font-weight: bolder;
@@ -497,12 +497,14 @@ table#TAB figcaption {
    font-weight: bolder;
 }
 
+
 table#OPMF p,
 table#TAB p,
 table#YGIC p,
 table#Hiking p,
 table#Photography p,
-table#CAD p {
+table#CAD p,
+table#SciOly p {
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
