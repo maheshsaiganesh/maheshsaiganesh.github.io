@@ -10,6 +10,11 @@
 
 /* Table Styles */
 
+#header_spacer{
+   display: block;
+   height:155px;
+}
+
 table {
     font-family: "Brush Script MT", "Lucida HandCAD", serif;
     font-weight: bold;

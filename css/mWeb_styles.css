@@ -29,7 +29,7 @@ nav a {
 body>header {
    background-color: rgb(186, 217, 240);
    height: 105px;
-   width:90%;
+   width: 90%;
    margin-bottom: 30px;
    padding-top: 10px;
    border-bottom-right-radius: 20px;
@@ -38,10 +38,11 @@ body>header {
    z-index: 1000;
 }
 
-#header_spacer{
+#header_spacer {
    display: block;
-   height:155px;
+   height: 155px;
 }
+
 body>header nav.tabs {
    position: relative;
    bottom: 0px;
@@ -161,14 +162,20 @@ table#Home h1 {
 
 table#Home h1 {
    display: inline-block;
-   padding-left: 10%;
-font-size: 4em;
+   font-size: 4em;
 
 }
-table#Home figcaption{
-font-size: 180%;
-text-indent: 10%;
+
+table#Home figcaption {
+   display: block;
+   text-wrap: nowrap;
+   text-align: center;
+   font-size: 180%;
+   padding-left: 0%;
 }
+
+
+
 
 section h2 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -264,9 +271,7 @@ table tbody tr td p {
    margin-left: auto;
    height: 100%;
    line-height: 1.2em;
-   padding-left: 10%;
    margin-top: -6%;
-
 }
 
 img[alt~="Temple"] figcaption {
@@ -285,7 +290,6 @@ table figcaption br {
 img[alt~="Niagra_Bridge"],
 img[alt~="Leopard"],
 img[alt~="Windmills"],
-img[alt~="M_Portrait"],
 img[alt~="OPMF_5"],
 img[alt~="OPMF_1"],
 img[alt~="OPMF_4"],
@@ -295,7 +299,18 @@ img[alt~="OPMF_2"] {
    border-radius: 20px;
    display: inline-block;
    margin-right: auto;
+}
 
+
+img[alt~="M_Portrait"] {
+   display: inline-block;
+   margin-left: 20%;
+   margin-right: auto;
+   margin-top:50px;
+   border-top-right-radius: 600px;
+   border-top-left-radius: 600px;
+   border-bottom-right-radius: 600px;
+   border-bottom-left-radius: 600px;
 }
 
 img[alt~="Smokies"] {
@@ -366,23 +381,14 @@ table#OPMF_9 figcaption,
 table#OPMF_8 figcaption,
 table#OPMF_2 figcaption,
 table#Shenandoah figcaption,
-table#Smokies figcaption, 
-table#Cuyahoga figcaption
-table#Local figcaption,
-table#Milo_Smokies figcaption{
+table#Smokies figcaption,
+table#Cuyahoga figcaption table#Local figcaption,
+table#Milo_Smokies figcaption {
    display: inline-block;
    font-size: 250%;
    font-weight: bolder;
 
 }
-
-table#Home figcaption {
-   display: inline-block;
-   text-align: center;
-   padding-left: 35%;
-   padding-right: auto;
-}
-
 
 table#Temple figcaption {
    margin-left: 46%;
@@ -410,15 +416,17 @@ table#Windmills figcaption {
    margin-right: auto;
 }
 
-table#Shenandoah figcaption{
+table#Shenandoah figcaption {
    margin-left: 39%;
    margin-right: auto;
 }
-table#Smokies figcaption{
+
+table#Smokies figcaption {
    margin-left: 38%;
    margin-right: auto;
 }
-table#Cuyahoga figcaption{
+
+table#Cuyahoga figcaption {
    margin-left: 43%;
    margin-right: auto;
 }
@@ -427,6 +435,7 @@ table#Local figcaption {
    margin-left: 45%;
    margin-right: auto;
 }
+
 table#Milo_Smokies figcaption {
    margin-left: 41%;
    margin-right: auto;
