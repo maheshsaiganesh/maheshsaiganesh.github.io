@@ -91,3 +91,7 @@ body article p {
     vertical-align: baseline;
 }
 
+table#Education h2{
+   display: inline-block;
+   margin-left:45%;
+}

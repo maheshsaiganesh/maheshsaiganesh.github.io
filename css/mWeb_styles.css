@@ -158,13 +158,17 @@ section h2 {
 section h1,
 table#Home h1 {
    font-size: 3em;
+   margin-left:-10%;
 }
 
-table#Home h1 {
+table#Home h1,
+table#Education h1{
    display: inline-block;
    font-size: 4em;
-
 }
+
+
+
 
 table#Home figcaption {
    display: block;
@@ -267,8 +271,8 @@ table {
 table tbody tr td p {
    font-size: 200%;
    line-height: 1.2em;
-   margin-right: auto;
-   margin-left: auto;
+   margin-right: 15%;
+   margin-left: -10%;
    height: 100%;
    line-height: 1.2em;
    margin-top: -6%;
