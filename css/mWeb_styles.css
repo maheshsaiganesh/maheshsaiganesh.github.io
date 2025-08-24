@@ -61,12 +61,14 @@ body>header>nav.tabs>ul {
 }
 
 body>header nav.tabs li {
+   display: flex;
+   flex-grow: 1;
    background-color: rgb(186, 217, 240);
    display: block;
    float: left;
    height: 40px;
    line-height: 36px;
-   margin-left: 4%;
+   margin-left: 2%;
    margin-right: 2%;
    width: 12%;
    border-radius: 10px;
@@ -158,11 +160,11 @@ section h2 {
 section h1,
 table#Home h1 {
    font-size: 3em;
-   margin-left:-10%;
+   margin-left: -10%;
 }
 
 table#Home h1,
-table#Education h1{
+table#Education h1 {
    display: inline-block;
    font-size: 4em;
 }
@@ -292,7 +294,7 @@ table figcaption br {
 
 
 img[alt~="Niagra_Bridge"],
-img[alt~="Leopard"],
+img[alt~="NYC_Bridge"],
 img[alt~="Windmills"],
 img[alt~="OPMF_5"],
 img[alt~="OPMF_1"],
@@ -311,7 +313,7 @@ img[alt~="M_Portrait"] {
    display: inline-block;
    margin-left: 20%;
    margin-right: auto;
-   margin-top:50px;
+   margin-top: 50px;
    border-radius: 600px;
 }
 
@@ -326,7 +328,7 @@ img[alt~="Smokies"] {
 }
 
 img[alt~="Niagra_Bridge"],
-img[alt~="Leopard"],
+img[alt~="NYC_Bridge"],
 img[alt~="Windmills"],
 img[alt~="OPMF_5"],
 img[alt~="OPMF_1"],
@@ -375,7 +377,7 @@ table#CAD_Photos p {
 table#Temple figcaption,
 table#Smokies figcaption,
 table#Niagra figcaption,
-table#Leopard figcaption,
+table#NYC_Bridge figcaption,
 table#Windmills figcaption,
 table#OPMF_5 figcaption,
 table#OPMF_1 figcaption,
@@ -387,7 +389,7 @@ table#Shenandoah figcaption,
 table#Smokies figcaption,
 table#Cuyahoga figcaption table#Local figcaption,
 table#Milo_Smokies figcaption,
-table#SciOly figcaption{
+table#SciOly figcaption {
    display: inline-block;
    font-size: 250%;
    font-weight: bolder;
@@ -410,7 +412,7 @@ table#Niagra figcaption {
 }
 
 
-table#Leopard figcaption {
+table#NYC_Bridge figcaption {
    margin-left: 46%;
    margin-right: auto;
 }
