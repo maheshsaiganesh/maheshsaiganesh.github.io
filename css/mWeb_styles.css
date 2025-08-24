@@ -328,7 +328,6 @@ img[alt~="Smokies"] {
 }
 
 img[alt~="Niagra_Bridge"],
-img[alt~="NYC_Bridge"],
 img[alt~="Windmills"],
 img[alt~="OPMF_5"],
 img[alt~="OPMF_1"],
@@ -344,12 +343,19 @@ img[alt~="Temple"],
 img[alt~="Shenandoah"],
 img[alt~="Cuyahoga"],
 img[alt~="Local"],
-img[alt~="Milo_Smokies"] {
+img[alt~="Milo_Smokies"]{
    border-radius: 20px;
    display: inline-block;
    margin-left: 26%;
    margin-right: auto;
 }
+img[alt~="NYC_Bridge"] {
+   border-radius: 20px;
+   display: inline-block;
+   margin-left: 32%;
+   margin-right: auto;
+}
+
 
 
 
@@ -407,13 +413,13 @@ table#Smokies figcaption {
 }
 
 table#Niagra figcaption {
-   margin-left: 46%;
+   margin-left: 39%;
    margin-right: auto;
 }
 
 
 table#NYC_Bridge figcaption {
-   margin-left: 46%;
+   margin-left: 35%;
    margin-right: auto;
 }
 
