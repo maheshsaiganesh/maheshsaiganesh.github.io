@@ -16,7 +16,7 @@ body {
    box-shadow: 20px 0 70px rgb(92, 171, 210),
       -20px 0 70px rgb(47, 235, 235);
    background-color: rgb(155, 209, 235);
-   border-radius: 20px;
+   border-radius: 40px;
    color: rgb(14, 53, 82);
 }
 
@@ -32,8 +32,7 @@ body > header {
    width: 100%;               
    height: 105px;
    background-color: rgb(186, 217, 240);
-   border-bottom-right-radius: 20px;
-   border-bottom-left-radius: 20px;
+   border-radius: 20px;
    box-sizing: border-box;
    z-index: 1000;
 }
@@ -151,7 +150,7 @@ section h2 {
 section h1,
 table#Home h1 {
    font-size: 3em;
-   margin-left: -10%;
+   margin-left: 5%;
 }
 
 table#Home h1,
@@ -168,7 +167,7 @@ table#Home figcaption {
    text-wrap: nowrap;
    text-align: center;
    font-size: 180%;
-   padding-left: 0%;
+   padding-left: 40%;
 }
 
 
@@ -180,15 +179,19 @@ section h2 {
    font-weight: bolder;
    text-wrap: nowrap;
    text-align: center;
-   margin-top: -0.05%;
    border-style: solid;
+   margin-top: -0.1%;
    border-radius: 10px;
    border-width: 5px;
    line-height: 75px;
-   background-color: rgb(168, 206, 235);
+   background-color: rgb(186, 217, 240);
    border-color: rgb(63, 104, 134);
    margin-right: 1.4%;
    margin-left: 1.4%;
+}
+
+.Contact_Header {
+   margin-top: 2%;
 }
 
 section h3 {
@@ -196,6 +199,16 @@ section h3 {
    font-weight: bolder;
    text-wrap: nowrap;
    text-align: center;
+}
+section h5 {
+   font-size: 50px;
+   font-weight: bolder;
+   text-wrap: nowrap;
+   text-align: center;
+   margin-top:-0.5%;
+   margin-bottom:0.5%;
+   margin-left:3%;
+   margin-right:auto;
 }
 
 
@@ -265,7 +278,7 @@ table tbody tr td p {
    font-size: 200%;
    line-height: 1.2em;
    margin-right: 15%;
-   margin-left: -10%;
+   margin-left: 50px;
    height: 100%;
    line-height: 1.2em;
    margin-top: -6%;
@@ -307,7 +320,7 @@ img[alt~="M_Portrait"] {
    margin-top: 50px;
    border-radius: 600px;
 }
-
+/* Photography Image Styles */
 img[alt~="Smokies"] {
    border-radius: 20px;
    display: inline-block;
@@ -325,8 +338,7 @@ img[alt~="OPMF_1"],
 img[alt~="OPMF_4"],
 img[alt~="OPMF_9"],
 img[alt~="OPMF_8"],
-img[alt~="OPMF_2"],
-img[alt~="SciOly"] {
+img[alt~="OPMF_2"] {
    margin-left: 12%;
 }
 
@@ -385,7 +397,8 @@ table#OPMF_8 figcaption,
 table#OPMF_2 figcaption,
 table#Shenandoah figcaption,
 table#Smokies figcaption,
-table#Cuyahoga figcaption table#Local figcaption,
+table#Cuyahoga figcaption table,
+table#Local figcaption,
 table#Milo_Smokies figcaption,
 table#SciOly figcaption {
    display: inline-block;
@@ -503,9 +516,22 @@ table#TAB p,
 table#YGIC p,
 table#Hiking p,
 table#Photography p,
-table#CAD p,
-table#SciOly p {
+table#CAD p{
    display: inline-block;
+   margin-left: -15%;
+   margin-right: 10%;
+   margin-bottom: 1%;
+   margin-top: -0.5%;
+   font-size: 250%;
+   font-weight: bolder;
+   text-align: center;
+   padding-left: 30%;
+}
+table#SciOly p,
+table#OPMF p,
+table#NHS p,
+table#SHS p,
+table#BioClub p {
    margin-left: -15%;
    margin-right: 10%;
    margin-bottom: 1%;
@@ -557,4 +583,34 @@ table#OPMF_8 figcaption {
 table#OPMF_2 figcaption {
    margin-left: 30%;
    margin-right: auto;
+}
+
+/*Extracurricular Image Styles*/
+
+img[alt~="Sci_Oly"] {
+   display: inline-block;
+   margin-left: 20%;
+   margin-right: auto;
+   border-radius: 150px;
+}
+
+img[alt~="HOSA"] {
+   display: inline-block;
+   margin-left: 39%;
+   margin-right: auto;
+   border-radius: 75px;
+}
+
+img[alt~="NHS"] {
+   display: inline-block;
+   margin-left: 39%;
+   margin-right: auto;
+
+}
+
+img[alt~="SHS"] {
+   display: inline-block;
+   margin-left: 40%;
+   margin-right: auto;
+   border-radius: 160px;
 }
