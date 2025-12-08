@@ -310,6 +310,9 @@ img[alt~="OPMF_9"],
 img[alt~="OPMF_8"],
 img[alt~="OPMF_2"],
 img[alt~="SciOly"],
+img[alt~="CHS_Logo"],
+img[alt~="Sinclair_Logo"],
+img[alt~="OSU_Logo"],
 img[alt~="EV_CAD"],
 img[alt~="EV_2"]{
    border-radius: 20px;
@@ -370,6 +373,19 @@ img[alt~="NYC_Bridge"] {
    margin-right: auto;
 }
 
+img[alt~="CHS_Logo"]{
+   border-radius: 50%;
+   margin-left: 31.5%;
+   margin-right: auto;
+}
+
+img[alt~="Sinclair_Logo"],
+img[alt~="OSU_Logo"]{
+   border-radius: 50%;
+   margin-left: 39%;
+   margin-right: auto;
+}
+
 
 
 
@@ -410,6 +426,9 @@ table#Local figcaption,
 table#SantaPaws figcaption,
 table#Milo_Smokies figcaption,
 table#SciOly figcaption,
+table#CHS_Logo figcaption,
+table#Sinclair_Logo figcaption,
+table#OSU_Logo figcaption,
 table#EV_CAD figcaption,
 table#EV_2 figcaption {
    display: inline-block;
@@ -543,7 +562,10 @@ table#BioClub p,
 table#OPMF p,
 table#EV p,
 table#CAD p,
-table#CAD li{
+table#CAD li,
+table#CHS_Logo p,
+table#Sinclair_Logo p,
+table#OSU_Logo p{
    display: block;
    margin-bottom: 1%;
    margin-top: -0.5%;
@@ -567,7 +589,10 @@ table#SciOly p,
 table#HOSA p,
 table#NHS p,
 table#SHS p,
-table#BioClub p{
+table#BioClub p,
+table#CHS_Logo p,
+table#Sinclair_Logo p,
+table#OSU_Logo p{
    padding-left:10%;
 }
 
