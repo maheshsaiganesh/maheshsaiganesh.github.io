@@ -355,7 +355,8 @@ img[alt~="Windmills"] {
 img[alt~="Temple"],
 img[alt~="Cuyahoga"],
 img[alt~="Local"],
-img[alt~="Milo_Smokies"] {
+img[alt~="Milo_Smokies"],
+img[alt~="SantaPaws"] {
    border-radius: 20px;
    display: inline-block;
    margin-left: 30%;
@@ -406,6 +407,7 @@ table#OPMF_8 figcaption,
 table#OPMF_2 figcaption,
 table#Cuyahoga figcaption table,
 table#Local figcaption,
+table#SantaPaws figcaption,
 table#Milo_Smokies figcaption,
 table#SciOly figcaption,
 table#EV_CAD figcaption,
@@ -440,22 +442,26 @@ table#Windmills figcaption {
 
 table#Smokies figcaption {
    padding-left: 38.5%;
-}
+}  
 
 table#Cuyahoga figcaption {
-   margin-left: 43%;
+   margin-left: 45%;
    margin-right: auto;
 }
 
 table#Local figcaption {
-   margin-left: 45%;
+   margin-left: 49%;
+   margin-right: auto;
+}
+
+table#SantaPaws figcaption {
+   margin-left: 34%;
    margin-right: auto;
 }
 
 table#Milo_Smokies figcaption {
    margin-left: 41%;
    margin-right: auto;
-   font-size: 200%;
    font-weight: bolder;
 }
 
@@ -598,9 +604,7 @@ table#OPMF_9 figcaption {
    text-align: center;
 }
 
-table#OPMF_8 figcaption,
-table#EV_CAD figcaption,
-table#EV_2 figcaption {
+table#OPMF_8 figcaption{
    margin-left: 40%;
    margin-right: auto;
 }
@@ -610,6 +614,16 @@ table#OPMF_2 figcaption {
    margin-right: auto;
 }
 
+/*Figure captions to the CAD tab*/
+table#EV_CAD figcaption {
+   margin-left: 47%;
+   margin-right: auto;
+}
+
+table#EV_2 figcaption {
+   margin-left: 40%;
+   margin-right: auto;
+}
 /*Extracurricular Image Styles*/
 
 img[alt~="Sci_Oly"] {
