@@ -150,7 +150,8 @@ section h2 {
 section h1,
 table#Home h1 {
    font-size: 3em;
-   margin-left: 5%;
+   margin-left: 8%;
+   padding-bottom: 1%;
 }
 
 table#Home h1,
@@ -166,8 +167,9 @@ table#Home figcaption {
    display: block;
    text-wrap: nowrap;
    text-align: center;
-   font-size: 180%;
+   font-size:2.2em;
    padding-left: 40%;
+   padding-top:2%;
 }
 
 
@@ -278,7 +280,7 @@ table tbody tr td p {
    font-size: 200%;
    line-height: 1.2em;
    margin-right: 15%;
-   margin-left: 50px;
+   margin-left: 8%;
    height: 100%;
    line-height: 1.2em;
    margin-top: -6%;
@@ -324,15 +326,13 @@ img[alt~="M_Portrait"] {
 img[alt~="Smokies"] {
    border-radius: 20px;
    display: inline-block;
-   margin-right: 12%;
-   margin-left: 12%;
+   margin-right: 30%;
+   margin-left: 30%;
    border-radius: 20px;
    display: inline-block;
 
 }
 
-img[alt~="Niagra_Bridge"],
-img[alt~="Windmills"],
 img[alt~="OPMF_5"],
 img[alt~="OPMF_1"],
 img[alt~="OPMF_4"],
@@ -342,14 +342,18 @@ img[alt~="OPMF_2"] {
    margin-left: 12%;
 }
 
+img[alt~="Niagra_Bridge"],
+img[alt~="Windmills"] {
+   margin-left: 16%;
+}
+
 img[alt~="Temple"],
-img[alt~="Shenandoah"],
 img[alt~="Cuyahoga"],
 img[alt~="Local"],
 img[alt~="Milo_Smokies"] {
    border-radius: 20px;
    display: inline-block;
-   margin-left: 26%;
+   margin-left: 30%;
    margin-right: auto;
 }
 
@@ -395,8 +399,6 @@ table#OPMF_4 figcaption,
 table#OPMF_9 figcaption,
 table#OPMF_8 figcaption,
 table#OPMF_2 figcaption,
-table#Shenandoah figcaption,
-table#Smokies figcaption,
 table#Cuyahoga figcaption table,
 table#Local figcaption,
 table#Milo_Smokies figcaption,
@@ -408,23 +410,19 @@ table#SciOly figcaption {
 }
 
 table#Temple figcaption {
-   margin-left: 46%;
-   margin-right: auto;
+   padding-left: 40%;
 }
 
-table#Smokies figcaption {
-   margin-left: 36.5%;
-   margin-right: auto;
-}
 
 table#Niagra figcaption {
-   margin-left: 39%;
-   margin-right: auto;
+   display: inline-block;
+   text-wrap: none;
+   padding-left: 38%;
 }
 
 
 table#NYC_Bridge figcaption {
-   margin-left: 38%;
+   margin-left: 36.5%;
    margin-right: auto;
 }
 
@@ -433,14 +431,8 @@ table#Windmills figcaption {
    margin-right: auto;
 }
 
-table#Shenandoah figcaption {
-   margin-left: 39%;
-   margin-right: auto;
-}
-
 table#Smokies figcaption {
-   margin-left: 38%;
-   margin-right: auto;
+   padding-left: 38.5%;
 }
 
 table#Cuyahoga figcaption {
@@ -528,18 +520,24 @@ table#CAD p{
    padding-left: 30%;
 }
 table#SciOly p,
-table#OPMF p,
+table#HOSA p,
 table#NHS p,
 table#SHS p,
-table#BioClub p {
-   margin-left: -15%;
-   margin-right: 10%;
+table#BioClub p,
+table#OPMF p{
+   display: block;
    margin-bottom: 1%;
    margin-top: -0.5%;
    font-size: 250%;
    font-weight: bolder;
    text-align: center;
-   padding-left: 30%;
+}
+table#SciOly p,
+table#HOSA p,
+table#NHS p,
+table#SHS p,
+table#BioClub p{
+   padding-left:10%;
 }
 
 article table tbody tr td figure {
@@ -589,7 +587,7 @@ table#OPMF_2 figcaption {
 
 img[alt~="Sci_Oly"] {
    display: inline-block;
-   margin-left: 20%;
+   margin-left: 22%;
    margin-right: auto;
    border-radius: 150px;
 }
@@ -612,5 +610,5 @@ img[alt~="SHS"] {
    display: inline-block;
    margin-left: 40%;
    margin-right: auto;
-   border-radius: 160px;
+   border-radius: 170px;
 }
