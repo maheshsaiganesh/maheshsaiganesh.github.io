@@ -18,6 +18,7 @@ body {
    background-color: rgb(155, 209, 235);
    border-radius: 40px;
    color: rgb(14, 53, 82);
+   z-index:1;
 }
 
 
@@ -308,7 +309,9 @@ img[alt~="OPMF_4"],
 img[alt~="OPMF_9"],
 img[alt~="OPMF_8"],
 img[alt~="OPMF_2"],
-img[alt~="SciOly"] {
+img[alt~="SciOly"],
+img[alt~="EV_CAD"],
+img[alt~="EV_2"]{
    border-radius: 20px;
    display: inline-block;
    margin-right: auto;
@@ -338,7 +341,9 @@ img[alt~="OPMF_1"],
 img[alt~="OPMF_4"],
 img[alt~="OPMF_9"],
 img[alt~="OPMF_8"],
-img[alt~="OPMF_2"] {
+img[alt~="OPMF_2"],
+img[alt~="EV_CAD"],
+img[alt~="EV_2"] {
    margin-left: 12%;
 }
 
@@ -378,7 +383,7 @@ table#CAD p {
    margin-top: -1%;
 }
 
-table#CAD_Photos p {
+table#EV p {
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
@@ -402,7 +407,9 @@ table#OPMF_2 figcaption,
 table#Cuyahoga figcaption table,
 table#Local figcaption,
 table#Milo_Smokies figcaption,
-table#SciOly figcaption {
+table#SciOly figcaption,
+table#EV_CAD figcaption,
+table#EV_2 figcaption {
    display: inline-block;
    font-size: 250%;
    font-weight: bolder;
@@ -469,7 +476,8 @@ table#YGIC figcaption {
 
 }
 
-table img[alt~="OPMF"] {
+table img[alt~="OPMF"],
+table img[alt~="EV"]{
    border-radius: 20px;
    display: inline-block;
    margin-left: 16.6%;
@@ -477,7 +485,8 @@ table img[alt~="OPMF"] {
 
 }
 
-table#OPMF figcaption {
+table#OPMF figcaption,
+table#EV figcaption {
    display: inline-block;
    text-align: center;
    margin-left: 35%;
@@ -508,7 +517,8 @@ table#TAB p,
 table#YGIC p,
 table#Hiking p,
 table#Photography p,
-table#CAD p{
+table#CAD p,
+table#EV p{
    display: inline-block;
    margin-left: -15%;
    margin-right: 10%;
@@ -524,7 +534,10 @@ table#HOSA p,
 table#NHS p,
 table#SHS p,
 table#BioClub p,
-table#OPMF p{
+table#OPMF p,
+table#EV p,
+table#CAD p,
+table#CAD li{
    display: block;
    margin-bottom: 1%;
    margin-top: -0.5%;
@@ -532,6 +545,18 @@ table#OPMF p{
    font-weight: bolder;
    text-align: center;
 }
+
+table#CAD p,
+table#CAD li{
+   display: block;
+   margin-bottom: 1%;
+   margin-top: -0.5%;
+   font-size: 220%;
+   font-weight: bolder;
+   text-align: center;
+}
+
+
 table#SciOly p,
 table#HOSA p,
 table#NHS p,
@@ -573,7 +598,9 @@ table#OPMF_9 figcaption {
    text-align: center;
 }
 
-table#OPMF_8 figcaption {
+table#OPMF_8 figcaption,
+table#EV_CAD figcaption,
+table#EV_2 figcaption {
    margin-left: 40%;
    margin-right: auto;
 }
